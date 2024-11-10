@@ -5,7 +5,7 @@ public class Pooffendooy extends Hogwarts {
 
     @Override
     public String toString() {
-        return "Ученик Пуффендуя - " + "имя: " + getName() + ", фамилия: " + getSurname() + ", трудолюбие: " + hardworking + ", верность: " + loyal + ", честность: " + honest;
+        return "Ученик Пуффендуя: " + "имя: " + getName() + ", фамилия: " + getSurname() + ", трудолюбие: " + hardworking + ", верность: " + loyal + ", честность: " + honest;
     }
 
     public Pooffendooy(String surname, String name, int strong, int transgress, int hardworking, int loyal, int honest) {

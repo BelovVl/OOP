@@ -7,7 +7,7 @@ public class Slizerin extends Hogwarts {
 
     @Override
     public String toString() {
-        return "Ученик Слизерина - " + "имя: " + getName() + ", фамилия: " + getSurname() + ", хитрость: " + cunning + ", решительность: " + determination + ", амбициозность: " + ambition + ", находчивость: " + resourcefulness + ", жажда власти: " + thirstPower;
+        return "Ученик Слизерина: " + "имя: " + getName() + ", фамилия: " + getSurname() + ", хитрость: " + cunning + ", решительность: " + determination + ", амбициозность: " + ambition + ", находчивость: " + resourcefulness + ", жажда власти: " + thirstPower;
     }
 
     public Slizerin(String surname, String name, int strong, int transgress, int cunning, int determination, int ambition, int resourcefulness, int thirstPower) {
