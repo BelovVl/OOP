@@ -19,23 +19,12 @@ public class Griffindor extends Hogwarts {
         return honor;
     }
 
-    public void setHonor(int honor) {
-        this.honor = honor;
-    }
-
     public int getNobility() {
         return nobility;
-    }
-
-    public void setNobility(int nobility) {
-        this.nobility = nobility;
     }
 
     public int getBravery() {
         return bravery;
     }
 
-    public void setBravery(int bravery) {
-        this.bravery = bravery;
-    }
 }

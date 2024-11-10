@@ -15,31 +15,16 @@ public class Hogwarts {
         return surname;
     }
 
-    public void setSurname(String surname) {
-        this.surname = surname;
-    }
-
     public String getName() {
         return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
     }
 
     public int getStrong() {
         return strong;
     }
-
-    public void setStrong(int strong) {
-        this.strong = strong;
-    }
-
+    
     public int getTransgress() {
         return transgress;
     }
 
-    public void setTransgress(int transgress) {
-        this.transgress = transgress;
-    }
 }

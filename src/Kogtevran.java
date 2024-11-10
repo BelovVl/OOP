@@ -6,7 +6,7 @@ public class Kogtevran extends Hogwarts {
 
     @Override
     public String toString() {
-        return "Ученик Когтеврана - " + "имя: " + getName() + ", фамилия: " + getSurname() + ", интелект: " + smart + ", мудрость: " + wise + ", остроумие: " + witty + ", творчество: " + creativity;
+        return "Ученик Когтеврана: " + "имя: " + getName() + ", фамилия: " + getSurname() + ", интелект: " + smart + ", мудрость: " + wise + ", остроумие: " + witty + ", творчество: " + creativity;
     }
 
     public Kogtevran(String surname, String name, int strong, int transgress, int smart, int wise, int witty, int creativity) {
